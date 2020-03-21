@@ -1,0 +1,26 @@
+[package]
+name = "mdbook-fluent"
+version = "0.1.0"
+authors = ["Jakub Koralewski\\ <contact@jcubed.me>"]
+edition = "2018"
+license = "MIT OR Apache-2.0"
+keywords = ["fluent", "mdbook"]
+categories = ["web-programming", "template-engine", "internationalization"]
+readme = "README.md"
+repository = "https://github.com/JakubKoralewski/mdbook-fluent"
+description = "mdBook preprocessor for variable interpolation using the Fluent language"
+
+[[bin]]
+name = "mdbook-fluent"
+path = "src/bin/bin.rs"
+
+[dependencies]
+mdbook = {version = "0.3.6", features=[]}
+semver = "0.9.0"
+clap = "2.33.0"
+serde_json = "1.0.48"
+fluent = "0.11.0"
+unic-langid = "0.8.0"
+
+[dev-dependencies]
+mdbook = {version = "0.3.6", features = ["output", "debug"]}

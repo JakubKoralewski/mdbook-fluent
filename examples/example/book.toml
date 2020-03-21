@@ -1,0 +1,10 @@
+[book]
+title = "example-fluent"
+
+[preprocessor.fluent]
+# the `command` field is only needed to not have to install the `mdbook-fluent` binary!
+# windows only!
+command = 'cmd /C "set RUST_BACKTRACE=1 && cargo run --manifest-path=../../Cargo.toml --bin mdbook-fluent"'
+
+# linux below
+# command = 'RUST_BACKTRACE=1 cargo run --manifest-path=../../Cargo.toml --bin mdbook-fluent'
