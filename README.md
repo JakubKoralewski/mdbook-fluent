@@ -1,13 +1,19 @@
 # mdbook-fluent
 
+[![Build Status](https://github.com/JakubKoralewski/mdbook-fluent/workflows/CI/badge.svg)](https://github.com/JakubKoralewski/mdbook-fluent/actions?workflow=CI)
+[![crates.io](https://img.shields.io/crates/v/mdbook-fluent.svg)](https://crates.io/crates/mdbook)
+[![LICENSE](https://img.shields.io/github/license/JakubKoralewski/mdbook-fluent.svg)](LICENSE)
+
 A simple WIP preprocessor for [mdBook](https://github.com/rust-lang/mdBook).
 It uses the [Fluent language](https://projectfluent.org/) to interpolate
-variables inside your book. Building on the shoulders of giants via
+variables inside your book. 
+
+Building on the shoulders of giants via
 the [fluent-rs](https://github.com/projectfluent/fluent-rs) Rust implementation
 of the Fluent Project.
 
 **DISCLAIMER:**  
-This preprocessor is not designed to be used to translate 
+This preprocessor is not currently designed to be used to translate 
 books! This is because [mdBook itself is not designed this way](https://github.com/rust-lang/mdBook/issues/146#issuecomment-354759316)!
 
 ## Getting started
@@ -83,4 +89,4 @@ feature requests, pull requests or questions.
 
 ## License
 
-[MIT](./LICENSE-MIT) and [APACHE](LICENSE-APACHE)
+[MIT](./LICENSE) or [APACHE](LICENSE-APACHE)
