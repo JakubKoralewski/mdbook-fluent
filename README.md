@@ -2,7 +2,8 @@
 
 [![Build Status](https://github.com/JakubKoralewski/mdbook-fluent/workflows/CI/badge.svg)](https://github.com/JakubKoralewski/mdbook-fluent/actions?workflow=CI)
 [![crates.io](https://img.shields.io/crates/v/mdbook-fluent.svg)](https://crates.io/crates/mdbook)
-[![LICENSE](https://img.shields.io/github/license/JakubKoralewski/mdbook-fluent.svg)](LICENSE)
+[![Crates.io](https://img.shields.io/crates/l/mdbook-fluent)](./LICENSE)
+
 
 A simple WIP preprocessor for [mdBook](https://github.com/rust-lang/mdBook).
 It uses the [Fluent language](https://projectfluent.org/) to interpolate
