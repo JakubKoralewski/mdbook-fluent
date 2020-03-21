@@ -53,7 +53,7 @@ multi-line =
 ### Syntax:
 
 In your books use the `{{#fluent FILE_NAME.TAG}}`
-or `{{#fluent FILE_NAME.TAG.ATTRIBUTE` syntax, like so:
+or `{{#fluent FILE_NAME.TAG.ATTRIBUTE}}` syntax, like so:
 
     # Chapter 1
 
@@ -65,8 +65,8 @@ or `{{#fluent FILE_NAME.TAG.ATTRIBUTE` syntax, like so:
     {{#include ../listing/example.rs}}
     ```
 
-As you can see above, you can put the same `{{#fluent` tags
-inside other files that will be included.
+As you can see above, you can put the same `{{#fluent ...}}` tags
+inside other files that will be included using the built-in `links` preprocessor.
 
 ### Build
 
