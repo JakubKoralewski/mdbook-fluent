@@ -20,7 +20,7 @@ use fluent::{
 	FluentBundle, FluentResource,
 };
 
-
+#[derive(Default)]
 pub struct FluentPreprocessor;
 
 const DEFAULT_DIR: &str = "fluent";
