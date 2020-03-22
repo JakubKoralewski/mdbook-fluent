@@ -1,7 +1,7 @@
 # mdbook-fluent
 
 [![Build Status](https://github.com/JakubKoralewski/mdbook-fluent/workflows/CI/badge.svg)](https://github.com/JakubKoralewski/mdbook-fluent/actions?workflow=CI)
-[![crates.io](https://img.shields.io/crates/v/mdbook-fluent.svg)](https://crates.io/crates/mdbook)
+[![crates.io](https://img.shields.io/crates/v/mdbook-fluent.svg)](https://crates.io/crates/mdbook-fluent)
 [![Crates.io](https://img.shields.io/crates/l/mdbook-fluent)](./LICENSE)
 
 
